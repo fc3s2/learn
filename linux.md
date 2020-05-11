@@ -38,3 +38,6 @@
 https://help.aliyun.com/document_detail/111738.html?spm=a2c4g.11186623.4.1.6b814c07wjlpdY
 
 growpart <DeviceName> <PartionNumber>
+
+
+scp xxxx.tar name@ipaddres:路径
