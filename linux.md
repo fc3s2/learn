@@ -39,5 +39,12 @@ https://help.aliyun.com/document_detail/111738.html?spm=a2c4g.11186623.4.1.6b814
 
 growpart <DeviceName> <PartionNumber>
 
+tar -zvcf 压 
+tar -zvxf 解
+
+file changed as we read it
+http://blog.sina.com.cn/s/blog_4da051a60102x0nj.html
+
+ifconfig
 
 scp xxxx.tar name@ipaddres:路径
