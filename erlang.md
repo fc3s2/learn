@@ -39,3 +39,5 @@ ps aux | grep beam
 检查进程
 
 方法3. https://www.iteye.com/blog/mryufeng-362394
+
+io:format() 详解
