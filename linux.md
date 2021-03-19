@@ -66,3 +66,6 @@ tar -zvxf  解   tar -zvxf abc_time_v2.tar.gz
 tail -f xxx
 tail -n 100 xxxx
 cat xxx | grep yyyy 
+
+到指定文件夹生成项目树状图
+tree  > E:\Hexo\list.txt
