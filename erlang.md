@@ -2,17 +2,12 @@ shell:strings(false)
 ["⢡","✔","✓","⥬","⟣","✒","⟞","⟙","⢣","⟢","⥫","⟚","⢪","⢢"]
 当成汉字了
 
-
 Erlang shell 接入控制台
-
 windows   werl       -detached 
-
 方法1. JCL模式 Ctrl + G
-
 erl -setcookie abc -name node_1@127.0.0.1 
 设置相同的cookie 
 erl -setcookie abc -name node_2@127.0.0.2 
-
 Eshell V8.1  (abort with ^G)
 (node_2@127.0.0.1)1> node().
 'node_2@127.0.0.1'
@@ -29,7 +24,6 @@ Eshell V8.1  (abort with ^G)
 (node_1@127.0.0.1)1> 
 
 方法2. -remsh
-
 erl -setcookie abc -name node_3@127.0.0.3 -remsh node_1@127.0.0.1 
 注意. 禁止 q(). 
 可以使用 Ctrl + c 两次 来终止
@@ -41,7 +35,6 @@ ps aux | grep beam
 方法3. https://www.iteye.com/blog/mryufeng-362394
 
 io:format() 详解
-
 ___
 ##  Record & Map 
 > Erlang程序设计第二版第五章
